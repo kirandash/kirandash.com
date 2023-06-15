@@ -22,7 +22,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://trade.liquidityone.io/register"
-              className="inline-flex flex-wrap items-center gap-x-1 align-bottom underline"
+              className="inline-flex flex-wrap items-center gap-x-1 align-bottom underline hover:opacity-50"
             >
               LiquidityOne
             </a>{' '}

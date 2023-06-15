@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="container mx-auto max-w-2xl py-6 flex justify-between px-4">
         <a
           href="/"
-          className="router-link-active router-link-exact-active title"
+          className="router-link-active router-link-exact-active title hover:opacity-50"
           aria-current="page"
         >
           {' '}
@@ -17,15 +17,24 @@ const Header = () => {
             href="https://www.npmjs.com/~kirandash"
             rel="noopener noreferrer"
             target="_blank"
+            className="hover:opacity-50"
           >
             {' '}
             Side Projects{' '}
           </a>
-          <a href="/Kiran-Dash-Resume.pdf" target="_blank">
+          <a
+            href="/Kiran-Dash-Resume.pdf"
+            target="_blank"
+            className="hover:opacity-50"
+          >
             {' '}
             CV{' '}
           </a>
-          <a href="http://bgwebagency.in/" target="_blank">
+          <a
+            href="http://bgwebagency.in/"
+            target="_blank"
+            className="hover:opacity-50"
+          >
             {' '}
             Blog{' '}
           </a>
