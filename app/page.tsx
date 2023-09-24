@@ -10,7 +10,7 @@ export default function Home() {
             </h1>
           </p>
           <p className="my-8">
-            I’m a Frontend Developer specializing in React &amp; TypeScript.
+            I’m a Full Stack Engineer specializing in Next.js, React &amp; TypeScript.
           </p>
           <p>
             I have a passion for building quality Frontend SPAs, npm packages
@@ -26,7 +26,7 @@ export default function Home() {
             >
               LiquidityOne
             </a>{' '}
-            as a Lead Frontend Developer.
+            as a Founding Software Engineer.
           </p>
           <div className="mt-8 sm:mt-14 flex flex-wrap gap-2 sm:gap-4">
             <a
