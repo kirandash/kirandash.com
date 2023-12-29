@@ -13,7 +13,7 @@ export default function Home() {
             I’m a Full Stack Engineer specializing in Next.js, React &amp; TypeScript.
           </p>
           <p>
-            I have a passion for building quality Web Applications, npm packages
+            I have a passion for building quality web applications, npm packages
             and tutorials.
           </p>
           <p className="my-8">
