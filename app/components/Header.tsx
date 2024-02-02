@@ -14,13 +14,13 @@ const Header = () => {
         </a>
         <div className="flex gap-6">
           <a
-            href="https://www.npmjs.com/~kirandash"
+            href="https://kirandash-portfolio.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:opacity-50"
           >
             {' '}
-            Side Projects{' '}
+            Portfolio{' '}
           </a>
           <a
             href="/Kiran-Dash-Resume.pdf"
