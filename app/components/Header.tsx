@@ -47,14 +47,6 @@ const Header = () => {
             {' '}
             Blog{' '}
           </a>
-           <a
-            href="https://bgwebagency.in/kiran-dash/bookmarks/"
-            target="_blank"
-            className="hover:opacity-50"
-          >
-            {' '}
-            Bookmarks{' '}
-          </a>
         </div>
       </nav>
     </header>
