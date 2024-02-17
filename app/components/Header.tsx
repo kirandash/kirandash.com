@@ -23,6 +23,15 @@ const Header = () => {
             Portfolio{' '}
           </a>
           <a
+            href="https://bgwebagency.in/kiran-dash/activities/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="hover:opacity-50"
+          >
+            {' '}
+            Activities{' '}
+          </a>
+          <a
             href="/Kiran-Dash-Resume.pdf"
             target="_blank"
             className="hover:opacity-50"
