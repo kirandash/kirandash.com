@@ -10,22 +10,23 @@ export default function Home() {
             </h1>
           </p>
           <p className="my-8">
-            I’m a Full Stack Engineer specializing in Next.js, React &amp; TypeScript.
+            I’m a Full Stack Engineer specializing in Next.js, React &amp;
+            TypeScript.
           </p>
           <p>
             I have a passion for building quality web applications, npm packages
             and tutorials.
           </p>
           <p className="my-8">
-            I’m currently based in 🇸🇬 Singapore and work at{' '}
-            <a
+            I’m currently based in 🇸🇬 Singapore and work at{" "}
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://trade.liquidityone.io/register"
               className="inline-flex flex-wrap items-center gap-x-1 align-bottom underline hover:opacity-50"
             >
               LiquidityOne
-            </a>{' '}
+            </a>{" "} */}
             as a Founding Software Engineer.
           </p>
           <div className="mt-8 sm:mt-14 flex flex-wrap gap-2 sm:gap-4">
@@ -127,5 +128,5 @@ export default function Home() {
         </div>
       </article>
     </main>
-  )
+  );
 }
