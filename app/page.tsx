@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <article className="container mx-auto max-w-2xl mt-20 px-4">
+      <article className="container mx-auto max-w-2xl mt-8 md:mt-20 px-4">
         <div className="markdown-body">
           <div className="my-8">
             <span className="text-xl font-medium">Hi there,</span>
