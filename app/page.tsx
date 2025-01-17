@@ -3,32 +3,29 @@ export default function Home() {
     <main>
       <article className="container mx-auto max-w-2xl mt-20 px-4">
         <div className="markdown-body">
-          <p className="my-8">
-            <span className="text-xl font-medium">Hello,</span>
+          <div className="my-8">
+            <span className="text-xl font-medium">Hi there,</span>
             <h1 className="text-4xl mt-1 font-bold tracking-wide">
-              I’m Kiran Dash.
+              I&apos;m Kiran Dash
             </h1>
-          </p>
+          </div>
           <p className="my-8">
-            I’m a Full Stack Engineer specializing in Next.js, React &amp;
-            TypeScript.
+            Currently based in 🇸🇬 Singapore, I&apos;m a Full Stack Engineer
+            specializing in high-performance web applications with Next.js,
+            React, and TypeScript. I share my knowledge through tutorials and
+            create npm packages to solve real-world problems.
           </p>
-          <p>
-            I have a passion for building quality web applications, npm packages
-            and tutorials.
+          <p className="my-4 text-gray-700 dark:text-gray-300">
+            Find my tutorials helpful? Consider becoming a sponsor to support my
+            mission of creating more educational content! 🎓
           </p>
-          <p className="my-8">
-            I’m currently based in 🇸🇬 Singapore and work at{" "}
-            {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://trade.liquidityone.io/register"
-              className="inline-flex flex-wrap items-center gap-x-1 align-bottom underline hover:opacity-50"
-            >
-              LiquidityOne
-            </a>{" "} */}
-            as a Founding Software Engineer.
-          </p>
+          <iframe
+            src="https://github.com/sponsors/kirandash/button"
+            title="Become a sponsor"
+            height="32"
+            width="114"
+            style={{ border: 0, borderRadius: "6px", marginBottom: "1rem" }}
+          ></iframe>
           <div className="mt-8 sm:mt-14 flex flex-wrap gap-2 sm:gap-4">
             <a
               href="https://bgwebagency.in/"
@@ -40,10 +37,10 @@ export default function Home() {
               <svg
                 stroke="currentColor"
                 fill="none"
-                stroke-width="2"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 width="1.2em"
                 height="1.2em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +69,7 @@ export default function Home() {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
                 width="1.2em"
                 height="1.2em"
@@ -93,7 +90,7 @@ export default function Home() {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
                 width="1.2em"
                 height="1.2em"
@@ -114,7 +111,7 @@ export default function Home() {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
                 width="1.2em"
                 height="1.2em"
