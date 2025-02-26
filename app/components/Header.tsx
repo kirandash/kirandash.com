@@ -16,14 +16,14 @@ const Header = () => {
           <Link href="/portfolio" className="hover:opacity-50">
             Portfolio
           </Link>
-          <a
+          {/* <a
             href="https://bgwebagency.in/kiran-dash/activities/"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:opacity-50"
           >
             Activities
-          </a>
+          </a> */}
           <a
             href="/Kiran-Dash-Resume.pdf"
             target="_blank"

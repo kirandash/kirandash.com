@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getProjectById } from "../../lib/projects";
+import Link from "next/link";
 
 interface ProjectPageProps {
   params: {
@@ -18,6 +19,27 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   return (
     <main>
       <article className="container mx-auto max-w-2xl mt-8 md:mt-20 px-4 mb-16">
+        <Link
+          href="/portfolio"
+          className="inline-flex items-center text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 mb-8"
+        >
+          <svg
+            className="w-4 h-4 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          Back to Portfolio
+        </Link>
+
         <div className="my-8">
           <span className="text-xl font-medium">Project Details</span>
           <h1 className="text-4xl mt-1 font-bold tracking-wide">
