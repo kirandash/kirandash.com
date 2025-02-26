@@ -2,12 +2,27 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getProjectById } from "../../lib/projects";
 import Link from "next/link";
+import { Metadata } from "next";
 
 interface ProjectPageProps {
   params: {
     id: string;
   };
 }
+
+// Add metadata configuration to prevent indexing
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
+};
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const project = await getProjectById(params.id);
@@ -18,6 +33,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <main>
+      {/* Add meta tags for older browsers and additional protection */}
+      <meta name="robots" content="noindex, nofollow, noarchive" />
+      <meta name="googlebot" content="noindex, nofollow, noimageindex" />
+
       <article className="container mx-auto max-w-2xl mt-8 md:mt-20 px-4 mb-16">
         <Link
           href="/portfolio"
@@ -63,7 +82,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <a
               href={project.githubUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 border-2 border-black dark:border-white rounded-lg px-4 py-2 hover:opacity-50 transition-opacity"
             >
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -76,7 +95,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <a
               href={project.demoUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 border-2 border-black dark:border-white rounded-lg px-4 py-2 hover:opacity-50 transition-opacity"
             >
               <svg
