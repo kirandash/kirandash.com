@@ -1,56 +1,47 @@
-import React from 'react'
+import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header>
       <nav className="container mx-auto max-w-2xl py-6 flex justify-between px-4">
-        <a
+        <Link
           href="/"
           className="router-link-active router-link-exact-active title hover:opacity-50"
           aria-current="page"
         >
-          {' '}
-          Kiran Dash{' '}
-        </a>
+          Kiran Dash
+        </Link>
         <div className="flex gap-6">
-          <a
-            href="https://kirandash-portfolio.vercel.app/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="hover:opacity-50"
-          >
-            {' '}
-            Portfolio{' '}
-          </a>
+          <Link href="/portfolio" className="hover:opacity-50">
+            Portfolio
+          </Link>
           <a
             href="https://bgwebagency.in/kiran-dash/activities/"
             rel="noopener noreferrer"
             target="_blank"
             className="hover:opacity-50"
           >
-            {' '}
-            Activities{' '}
+            Activities
           </a>
           <a
             href="/Kiran-Dash-Resume.pdf"
             target="_blank"
             className="hover:opacity-50"
           >
-            {' '}
-            CV{' '}
+            CV
           </a>
           <a
             href="http://bgwebagency.in/"
             target="_blank"
             className="hover:opacity-50"
           >
-            {' '}
-            Blog{' '}
+            Blog
           </a>
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
