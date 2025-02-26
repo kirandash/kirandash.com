@@ -19,23 +19,15 @@ const Header = () => {
           {/* <a
             href="https://bgwebagency.in/kiran-dash/activities/"
             rel="noopener noreferrer"
-            target="_blank"
+            
             className="hover:opacity-50"
           >
             Activities
           </a> */}
-          <a
-            href="/Kiran-Dash-Resume.pdf"
-            target="_blank"
-            className="hover:opacity-50"
-          >
+          <a href="/Kiran-Dash-Resume.pdf" className="hover:opacity-50">
             CV
           </a>
-          <a
-            href="http://bgwebagency.in/"
-            target="_blank"
-            className="hover:opacity-50"
-          >
+          <a href="http://bgwebagency.in/" className="hover:opacity-50">
             Blog
           </a>
         </div>

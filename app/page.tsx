@@ -29,7 +29,6 @@ export default function Home() {
           <div className="mt-8 sm:mt-14 flex flex-wrap gap-2 sm:gap-4">
             <a
               href="https://bgwebagency.in/"
-              target="_blank"
               className="border-black dark:border-white border-2 rounded-lg px-4 flex items-center py-2 gap-1 hover:opacity-50 w-full sm:w-auto justify-center"
               title="Link to my blog posts"
               role="button"
@@ -59,7 +58,6 @@ export default function Home() {
               Read my blog
             </a>
             <a
-              target="_blank"
               rel="noopener"
               href="https://github.com/kirandash"
               className="border-black dark:border-white border-2 rounded-lg px-4 flex items-center py-2 gap-1 hover:opacity-50 flex-1 sm:flex-none justify-center"
@@ -80,7 +78,6 @@ export default function Home() {
               GitHub
             </a>
             <a
-              target="_blank"
               rel="noopener"
               href="https://www.youtube.com/@bgwebagency/"
               className="border-black dark:border-white border-2 rounded-lg px-4 flex items-center py-2 gap-1 hover:opacity-50 flex-1 sm:flex-none justify-center"
@@ -101,7 +98,6 @@ export default function Home() {
               YouTube
             </a>
             <a
-              target="_blank"
               rel="noopener"
               href="https://www.linkedin.com/in/kiran-dash/"
               className="border-black dark:border-white border-2 rounded-lg px-4 flex items-center py-2 gap-1 hover:opacity-50 w-full sm:w-auto justify-center"

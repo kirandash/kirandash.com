@@ -81,7 +81,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {project.githubUrl && (
             <a
               href={project.githubUrl}
-              target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 border-2 border-black dark:border-white rounded-lg px-4 py-2 hover:opacity-50 transition-opacity"
             >
@@ -94,7 +93,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {project.demoUrl && (
             <a
               href={project.demoUrl}
-              target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 border-2 border-black dark:border-white rounded-lg px-4 py-2 hover:opacity-50 transition-opacity"
             >
