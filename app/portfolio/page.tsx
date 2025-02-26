@@ -17,8 +17,13 @@ export default async function PortfolioPage() {
           <h1 className="text-4xl mt-1 font-bold tracking-wide">Portfolio</h1>
         </div>
         <p className="my-8 text-gray-700 dark:text-gray-300">
-          Here are some of the projects I&apos;ve worked on. Each project
-          represents a unique challenge and solution in web development.
+          Welcome to my portfolio showcasing over 10 years of web development
+          experience, specializing in both frontend and full-stack development.
+          From crafting pixel-perfect user interfaces to architecting complete
+          web applications, I&apos;ve built solutions for enterprise clients and
+          innovative startups. Each project demonstrates my expertise in
+          creating scalable, user-centric applications with clean code and
+          optimal performance.
         </p>
 
         <div className="grid gap-6 my-12">
